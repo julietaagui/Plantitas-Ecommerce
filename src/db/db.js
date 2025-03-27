@@ -69,6 +69,6 @@ export const DATABASE = [
         name: "Espliego",
         description: "descripcion",
         price: 700,
-        img: "../public/planta10.jpg"
+        img: "/planta10.jpg"
     }
 ]
