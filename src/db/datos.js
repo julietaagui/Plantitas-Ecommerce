@@ -7,7 +7,7 @@ export const DATOS = [
         type: "Interior",
         care: "Poco",
         irrigation: "Frecuente",
-        img: "../public/mostera.jpg"
+        img: "/mostera.jpg"
     },
     {
         id: "2",
@@ -15,7 +15,7 @@ export const DATOS = [
         type: "Interior y Exterior",
         care: "Poco",
         irrigation: "Moderado",
-        img: "../public/kethia.jpg"
+        img: "/kethia.jpg"
     },
     {
         id: "3",
@@ -23,7 +23,7 @@ export const DATOS = [
         type: "Exterior",
         care: "Moderado",
         irrigation: "Frecuente",
-        img: "../public/limonero.jpg"
+        img: "/limonero.jpg"
     }
 
 ]
