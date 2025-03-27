@@ -5,7 +5,7 @@ export default function Consejos() {
                 {/* Sección de imágenes */}
                 <div className="col-md-5 d-flex flex-column">
                     <img
-                        src="../src/assets/consejos.jpg"
+                        src="../public/consejos.jpg"
                         className="img-fluid mb-3 rounded-5 shadow"
                         alt="Parte 1"
                         style={{ width: "500px", height: "500px"}}
