@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+.bg-col-sec{
+    background-color: #397b57;
+}
+.tx-primary{
+    color: #93c485 !important;
+}
+.tx-titulo{
+    color: #397b57 !important;
+}
+
+.pr-3{
+    padding-right: 3rem;
+}
+
+.hover {
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hover:hover {
+    color: #397b57 !important;
+    transform: translateY(-5px); 
+    transition: all 0.3s ease; 
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+
+
+.banner-img {
+    max-height: 400px; /* Ajusta este valor según la altura que prefieras */
+    object-fit: cover; /* Mantiene el contenido visible sin deformarlo */
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+}
+
+.card-img-custom {
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    height: 300px; /* Ajusta la altura fija */
+    object-fit: cover; /* Recorta la imagen si es necesario, manteniendo proporciones */
+}
+
+.card-title{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+  
+.card-info {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    padding: 1.5rem;
+    height: 100%;
+    width: 18rem;
+    border-color: #397b57;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+
+.card-info:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+    transform: translateY(-5px); /* Efecto de levantamiento */
+    transition: all 0.3s ease; /* Suaviza los cambios */
+}
+
+.icons{
+    align-items: center !important;
+    font-size: 2rem;
+    color: #397b57;
+}
+.icon-style {
+    font-size: 2.5rem; /* Ajusta según lo necesario */
+    color: #397b57; /* Color de los íconos */
+}
+  
+.content-section {
+    min-height: 40rem; /* Ocupa al menos el 100% de la altura de la pantalla */
+    display: flex;     /* Flexbox para centrar el contenido */
+    align-items: center; /* Centrado vertical */
+    justify-content: center; /* Centrado horizontal */
+}
+
+.img-circle{
+    width: 65%; 
+    height: 260px;
+    border-radius: 30rem;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+.alinear{
+    align-items: center;
+}
+
+.space{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.style-btn{
+    border-color: #93c485;
+    color: #93c485;
+}
+.img-custom{
+    width: 50%;
+    height: 80%;
+    border-radius: 80rem;
+}
